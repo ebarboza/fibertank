@@ -2262,12 +2262,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/header-bg.png) center;
+  background: url(../img/header-bg3.jpg) center;
   background-size: cover;
 }
 
 .banner-content {
-  margin-top: -130px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
@@ -2498,7 +2498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .callto-action-area {
-  background: url(../img/callaction-bg.jpg) center;
+  background: url(../img/contactus-bg.jpg) center;
   background-size: cover;
 }
 
@@ -2522,6 +2522,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .callto-action-area .overlay-bg {
   background: rgba(4, 9, 30, 0.6);
+}
+
+.callto-action-area .box{
+  background: rgb(192, 192, 200, 0.6);
+  word-wrap: break-word;
 }
 
 .single-price {
