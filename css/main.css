@@ -2449,6 +2449,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .image {
+  border-radius: 4px; 
   opacity: 1;
   display: block;
   width: 100%;
@@ -2472,14 +2473,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .middle {
-  transition: .5s ease;
-  opacity: 0;
+  transition: .5s ease;  
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: center;  
 }
 
 .single-portfolio:hover .image {
@@ -2490,8 +2490,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
 }
 
-.text {
+.text-title {
   background-color: #df003a;
+  color: white;
+  font-size: 25px;
+  padding: 16px 32px;
+}
+
+.text {
+  background-color: #6382e6 ;
   color: white;
   font-size: 25px;
   padding: 16px 32px;
@@ -2527,79 +2534,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .callto-action-area .box{
   background: rgb(192, 192, 200, 0.6);
   word-wrap: break-word;
+  margin: 5px;
+  padding-top: 5px;
 }
-
-.single-price {
-  background-color: #fff;
-}
-
-.single-price .top-sec, .single-price .bottom-sec {
-  border-bottom: 1px solid #eeeeee;
-  padding: 40px 40px 22px 40px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.single-price .top-sec br, .single-price .bottom-sec br {
-  display: none;
-}
-
-@media (max-width: 1024px) {
-  .single-price .top-sec br, .single-price .bottom-sec br {
-    display: block;
-  }
-}
-
-.single-price .end-sec {
-  background-color: #f9f9ff;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  padding: 40px 40px 22px 40px;
-}
-
-.single-price .end-sec ul li {
-  margin-bottom: 20px;
-}
-
-.single-price .price-btn {
-  background: #df003a;
-  color: #fff;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.single-price:hover {
-  cursor: pointer;
-}
-
-.single-price:hover .bottom-sec, .single-price:hover .end-sec {
-  background-color: #df003a;
-  box-shadow: 0px 20px 20px 0px rgba(157, 157, 157, 0.5);
-  color: #fff;
-}
-
-.single-price:hover .price-btn {
-  border-color: transparent;
-  background: #222;
-  color: #fff;
-}
-
-.single-price:hover .price-btn .lnr {
-  color: #fff;
-}
-
-@media (max-width: 800px) {
-  .single-price {
-    margin-bottom: 30px;
-  }
-  .single-price .bottom-sec, .single-price .end-sec {
-    text-align: center;
-  }
-}
+ 
 
 .testomial-area {
   background-color: #f9f9ff;
